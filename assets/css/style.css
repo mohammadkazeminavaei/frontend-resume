@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Iranyekanlight;
+  src: url("fonts/IRANYekan/ttf/iranyekanweblight(fanum).ttf");
+}
+
+body
+{
+  font-family: Iranyekanlight;
+  color: #777;
+}
+
+a 
+{
+  color: #43aea0;
+}
+
+a:hover
+{
+  color: #06c2a9;
+  text-decoration: none;
+}
+
+section
+{
+  padding: 60px 0;
+
+}
+
+.bg-section
+{
+  background-color: #f2f9f8;
+}
+
+.section-title
+{
+  padding-bottom: 30px;
+  text-align: center;
+
+}
+
+.section-title h2
+{
+  font-size: 32px;
+  font-weight: 300;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  color: #555;
+
+}
+
+.section-title p
+{
+   margin-bottom: 0;
+}
+
+.services .icon-box 
+{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services .icon i 
+{
+  font-size: 42px;
+  color: aqua;
+}
+
+.services .title 
+{
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.services .title a 
+{
+  color: #343a40;
+  transition: 0.3s;
+}
+
+.services .icon-box:hover .title a 
+{
+  color: #47739e;
+}
+
+.services .description
+{
+  font-size: 14px;
+  line-height: 24px;
+}
