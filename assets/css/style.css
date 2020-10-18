@@ -19,7 +19,7 @@ a:hover
   color: #06c2a9;
   text-decoration: none;
 }
-
+/* SECTION */
 section
 {
   padding: 60px 0;
@@ -52,6 +52,8 @@ section
 {
    margin-bottom: 0;
 }
+
+/* services */
 
 .services .icon-box 
 {
@@ -87,4 +89,41 @@ section
 {
   font-size: 14px;
   line-height: 24px;
+}
+
+/* ABOUT */
+
+.about 
+{
+  text-align: right;
+}
+
+.about ul
+{
+  list-style: none;
+  direction: rtl;
+  padding: 0;
+}
+
+.about h3
+{
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.about ul li
+{
+  padding-bottom: 10px;
+}
+
+.about ul i 
+{
+  font-size: 20px;
+  color: #70b9b0;
+  padding-right: 4px;
+}
+
+.about p:last-child 
+{
+  margin-bottom: 0;
 }
